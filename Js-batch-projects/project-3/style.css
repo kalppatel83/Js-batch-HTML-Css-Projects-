@@ -1,0 +1,63 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+/* TODO: Work on text-decoration in nav bar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TODO: Navbar Styles */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 10%;
+  height: 10vh;
+}
+.navbar-container img {
+  width: 80%;
+}
+.navbar-container .list {
+  display: flex;
+  gap: 60px;
+}
+.navbar-container .list .list-item {
+  list-style-type: none;
+  font-size: 1.3rem;
+}
+.navbar-container .button-group {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  margin-left: 15px;
+  padding: 15px 45px;
+  background: none;
+  border-radius: 10px;
+}
+
+/* TODO: hero Styles */
+
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container-right {
+  width: 50%;
+}
+/* .hero-container img {
+  position: relative;
+  z-index: inherit;
+} */
+
+.square {
+  position: absolute;
+  top: 65%;
+
+  left: 20%;
+}

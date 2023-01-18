@@ -1,0 +1,92 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* Make all color same */
+}
+.container {
+}
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 0 10%;
+  background-color: #000000;
+  position: relative;
+}
+nav img {
+  width: 80%;
+}
+nav .line {
+  height: 45px;
+  border-left: 2px solid #fff;
+  margin-right: 40px;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+  color: #fff;
+}
+
+nav ul li {
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 18px;
+}
+nav ul li:hover {
+  cursor: pointer;
+  color: #ba0cc5;
+}
+nav .button-small {
+  background-color: #ba0cc5;
+  padding: 15px 35px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+nav .button-small:hover {
+  background-color: #9e11a9;
+  cursor: pointer;
+}
+.hero {
+  background-image: url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+.hero > .hero-heading {
+  font-size: 75px;
+  text-align: center;
+  max-width: 800px;
+  line-height: 1.2;
+}
+.hero > .hero-description {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.hero > .button-large {
+  background-color: #ba0cc5;
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: none;
+  border-color: #ba0cc5;
+}
+.hero > .button-large:hover {
+  background-color: #9e11a9;
+  cursor: pointer;
+}
